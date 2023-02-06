@@ -1,0 +1,53 @@
+h1 {
+    margin: 0;
+    color: rosybrown;
+    padding: 15px;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(32 44 126 / 88%);
+    font-family: sans-serif;
+}
+
+.todo-container {
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.input-section input {
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 6px #211d1d;
+
+}
+
+ul{
+     
+    text-align: left;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 6px #211d1d;
+    display: flex;
+}
+ul li i{
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+}
+.input-section {
+    background-color: rgb(209, 218, 219);
+    padding: 18px;
+    border-radius: 10px;
+}   
